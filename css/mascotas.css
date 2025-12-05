@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*CSS MASCOTAS*/
+
+.mascotas{
+    width: 100%;
+    height: 70px;
+    background-color: #82a1ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.contendorMascotas{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 90%;
+height: 90%;
+background-color: rgb(255, 255, 255);
+gap: 10px;
+margin: 10px;
+}
+
+.cuadros{
+    width: 90%;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+    transform: scale() ;
+    transition: all 0.5s ease-in-out;
+    box-shadow:  0px 4px 12px rgba(64, 64, 24, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.cuadros:hover{
+    transform: scale(1.02);
+}
+
+img{
+    width: 100%;
+    height: 70%;
+    border-radius:  5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.volver{
+    background-color:rgb(77, 144, 252);;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    flex-shrink: 0;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px;
+    outline: none;
+ }
+ a{
+    color: white;
+    text-decoration: none;
+ }
+
+@media (min-width: 1240px) {
+    main{
+        background-color: #ffffff;
+        
+    }
+.contendorMascotas{
+    width: 90%;
+    flex-direction: row;
+    gap: 10px;
+    }
+ .cuadros{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0px 4px 12px rgba(64, 64, 24, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+
+ }
+ img{
+    object-position: top;
+
+ }
+ .volver{
+    background-color:rgb(77, 144, 252);
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    flex-shrink: 0;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px;
+    outline: none;
+ }
+
+ a{
+    color: white;
+    text-decoration: none;
+ }
+}
+
+@media (min-width: 768px) and (min-width:1023px) 
+{
+ 
+.contendorMascotas{
+    flex-direction: row;
+}
+.cuadros{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+}
+
+
