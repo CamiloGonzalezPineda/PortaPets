@@ -58,7 +58,7 @@ h2{
 .imagen{
     width: 100%;
     height: auto;
-    background-color: #e19898;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,7 +280,7 @@ input{
     justify-content: center;
     align-items: center;
     border-radius: 10px 0px 0px 10px;
-       background-color: #bf3b3b;
+    background-color: #ffffff;
 
 
 }
